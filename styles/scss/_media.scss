@@ -1,0 +1,211 @@
+@media (max-width: 1599px){
+  .main__after{
+    right: 2%;
+  }
+  .canada__before, .main__before{
+    left: 8.14%;
+  }
+  .author__info-before{
+    left: 0;
+  }
+  .canada__after{
+    right: 0;
+    width: 10%;
+    & img{
+      width: 100%;
+    }
+  }
+  .footer__after {
+    position: absolute;
+    right: 6.3%;
+    top: -24px;
+  }
+}
+
+@media (max-width: 1199px){
+  .main__after{
+    width: 15%;
+    & img{
+      width: 100%;
+    }
+  }
+  .author__info-before{
+    width: 15%;
+    & img{
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 991px){
+  .main__after{
+    display: none;
+  }
+  .col-md-end{
+    display: flex;
+    align-items: flex-end;
+  }
+  .main__info{
+    margin-bottom: 12px;
+  }
+  .main__text{
+    font-size: 24px;
+  }
+  .header__form-info{
+    margin-bottom: 12px;
+  }
+  .header__contacts li{
+    font-size: 18px;
+    margin-right: 0;
+    margin-bottom: 5px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+  .header__contacts{
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .advantages__info{
+    padding-right: 0;
+  }
+  .author__info-title {
+    margin-bottom: 45px;
+  }
+  .education__title{
+    margin-bottom: 50px;
+  }
+  .education__list li{
+    text-align: justify;
+  }
+  .canada__info, .author__info-text, .education__list li, .advantages__info-title, .advantages__info-text{
+    font-size: 16px;
+  }
+  #advantages{
+    padding: 50px 0;
+  }
+  .advantages__title{
+    margin-bottom: 45px;
+  }
+  .author__info-text p:nth-of-type(2){
+    margin-bottom: 12px;
+  }
+  .author__info-name{
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 767px){
+  .col-md-end{
+    display: none;
+  }
+  .canada__title{
+    font-size: 31px;
+    margin-bottom: 40px;
+  }
+  .canada__title::before{
+    height: 70px;
+    width: 176px;
+    background-size: 176px 70px;
+    top:-6px;
+  }
+  #section__canada{
+    padding: 35px 0;
+  }
+  .section__title-statistics{
+    font-size: 27px;
+    margin-bottom: 40px;
+  }
+  #statistics{
+    padding: 35px 0 15px;
+  }
+  .statistics__list .col-md-4.col-lg-2{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .statistics__list-title{
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .statistics__list-icon{
+    margin-bottom: 20px;
+  }
+  #video{
+    padding: 15px 0;
+  }
+  .author__info-before{
+    display: none;
+  }
+}
+
+@media (max-width: 600px){
+  .canada__after{
+    display: none;
+  }
+}
+
+@media (max-width: 576px){
+  #main{
+    padding-top: 110px;
+  }
+  .main__text{
+    font-size: 20px;
+  }
+  .header__contacts li{
+    font-size: 16px;
+  }
+  #advantages{
+    padding: 30px 0;
+  }
+  #education{
+    padding: 35px 0 0;
+  }
+  .education__list li{
+    font-size: 16px;
+  }
+  #registration{
+    padding: 30px 0;
+  }
+  .registation__text{
+    margin-bottom: 20px;
+    font:18px Circle Regular;
+  }
+  .btn__submit-sm{
+    width: 290px;
+  }
+  html, body{
+    font-size: 16px;
+  }
+  .author__info-name{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .video__btn{
+    width: 60px;
+    height: 60px;
+    background-size: 60px;
+  }
+  .canada__title{
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  .canada__title::before{
+    top:-17px;
+  }
+  .section__title-statistics{
+    font-size: 20px;
+  }
+  .btn__submit{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 575px){
+  .advantages__list li:nth-child(1)::before, .advantages__list li:nth-child(2)::before, .advantages__list li:nth-child(3)::before, .advantages__list li:nth-child(4)::before, .advantages__list li:nth-child(5)::before, .advantages__list li:nth-child(6)::before{
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+    left: 15px;
+  }
+}
